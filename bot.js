@@ -41,6 +41,11 @@ return;
     }
 });
 
+client.on('message', message => {
+    if (message.content === 'باك') {
+        message.reply(' ۏڷــګــمۘ ۛ ּمۘــڼۨــﯡڕ ּڀــ؏ــڛۜــڵ: :️');
+      }
+});
 
 
 client.login(process.env.BOT_TOKEN); 
