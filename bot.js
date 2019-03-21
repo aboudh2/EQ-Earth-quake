@@ -56,21 +56,6 @@ client.on('message', message => {
 
 
 client.on('message', message => {
-    if (message.content === 'الشعار') {
-        message.reply('き  في اللعبة
-');
-      }
-});
-
-client.on('message', message => {
-    if (message.content === 'الشعار') {
-        message.reply('!෴Eq㍿ في الدسكورد
-');
-      }
-});
-
-
-client.on('message', message => {
     if (message.content === 'ping') {
         message.reply('pong');
       }
